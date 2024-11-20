@@ -12,11 +12,17 @@ p {
 
 body {
     background-color: #ddcea7;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
 }
 
 nav {
     background-color: #f8eccd;
     box-shadow: 50px;
+    width: 100px;
+    height: 1280px;
+    position: fixed;
 }
 
 #prueba {
@@ -37,4 +43,13 @@ nav {
     height: 50px;
     background-color: #fce099;
     border: 3px solid #d69a5f;
+}
+
+.chat-input {
+    position: fixed;
+    right: 200px;
+    top: 85vh;
+    border-radius: 25px;
+    width: 720px;
+    height: 50px;
 }
