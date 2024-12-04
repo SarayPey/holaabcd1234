@@ -1,0 +1,15 @@
+/login
+
+/registro
+
+/perfil
+
+/oc
+
+/historial-chat
+
+/perfil-historias
+
+/grupos
+
+/config

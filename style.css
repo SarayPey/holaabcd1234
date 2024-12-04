@@ -15,6 +15,8 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     padding-top: 0px;
+    display: flex;
+    overflow: hidden;
 }
 
 nav {
@@ -22,7 +24,12 @@ nav {
     box-shadow: 50px;
     width: 100px;
     height: 1280px;
-    position: fixed;
+    padding: 1rem;
+}
+
+body > section {
+    flex-grow: 1;
+    position: relative;
 }
 
 #prueba {
@@ -45,11 +52,41 @@ nav {
     border: 3px solid #d69a5f;
 }
 
+form {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
 .chat-input {
-    position: fixed;
     right: 200px;
-    top: 85vh;
     border-radius: 25px;
-    width: 720px;
-    height: 50px;
+    width: 500px;
+    height: 50px; 
+}
+
+#historial {
+    padding: 1rem;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.historial__message {
+    padding: 1px;
+    padding-left: 1rem;
+    border-radius: 25px;
+    background-color: #926b45;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.historial__message_response {
+    padding: 1px;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-radius: 25px;
+    background-color: #f8eccd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
