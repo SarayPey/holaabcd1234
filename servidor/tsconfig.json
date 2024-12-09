@@ -1,0 +1,17 @@
+{
+  // Parent tsconfig defined here: https://github.com/tsconfig/bases/blob/main/bases/node18.json
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "incremental": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "noUncheckedIndexedAccess": false
+  }
+}
