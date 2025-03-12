@@ -1,9 +1,11 @@
 h1 {
-    font-family: fantasy;
+    font-size: 40px;
+    color: #c09e07;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
+    font-size: 15px;
 }
 
 p {
@@ -11,7 +13,7 @@ p {
 }
 
 body {
-    background-color: #ddcea7;
+    background-color:rgb(233, 212, 117);
     margin-top: 0px;
     margin-left: 0px;
     padding-top: 0px;
@@ -20,9 +22,9 @@ body {
 }
 
 nav {
-    background-color: #f8eccd;
+    background-color: #fffebb;
     box-shadow: 50px;
-    width: 100px;
+    width: 140px;
     height: 1280px;
     padding: 1rem;
 }
@@ -78,7 +80,7 @@ form {
     padding: 1px;
     padding-left: 1rem;
     border-radius: 25px;
-    background-color: #926b45;
+    background-color: #bda454;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -87,6 +89,6 @@ form {
     padding-left: 1rem;
     margin: 1rem;
     border-radius: 25px;
-    background-color: #f8eccd;
+    background-color: #fffbd3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
